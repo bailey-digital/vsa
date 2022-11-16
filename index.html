@@ -19,39 +19,33 @@
 
 <body>
 
-    <header class="jumbotron jumbotron-fluid">
+    <div class="navbar-header jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row row-content align-items-center">
-                <div class="col-xs-12 col-md-3 align-self-left">
-                    <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
+                <div class="col-xs-12 col-md-6 align-self-left">
+                    <a href="index.html">Vinings School<br>of Art</a>
                  </div>
-                <div class="col-xs-12 col-md-9">
-                    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+                <div class="col-xs-12 col-md-6">
+                    <nav class="navbar navbar-expand-sm navbar-dark navbar-right sticky-top">
                         <div class="container">
-                            <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#vsaNavbar">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
-                            <div class="collapse navbar-collapse" id="nucampNavbar">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="camps.html">Camps</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="parties.html">Parties</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <div class="collapse navbar-collapse" id="vsaNavbar">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="nav-item"><a class="nav-link ml-2 mr-2" href="classes.html">Classes</a></li>
+                                    <li class="nav-item"><a class="nav-link ml-2 mr-2" href="camps.html">Camps</a></li>
+                                    <li class="nav-item"><a class="nav-link ml-2 mr-2" href="parties.html">Parties</a></li>
+                                    <li class="nav-item"><a class="nav-link ml-2 mr-2" href="register.html">Register</a></li>
+                                    <li class="nav-item"><a class="nav-link ml-2 mr-2" href="contact.html">Contact</a></li>
                                 </ul>
-                                <span class="navbar-text ml-auto">
-                                    <a role="button" id="#loginButton">
-                                        <i class="fa fa-sign-in"></i> Login
-                                    </a>
-                                </span>
                             </div>
-                        </div>
+                            </div>
                     </nav>
                 </div>
             </div>
         </div> 
-    </header>
+    </div>
 
     <div class="wrapper">
         <section>
@@ -61,7 +55,9 @@
                         <h1>Art classes, camps and parties for all ages</h1>
                         <p>Our Vinings art school has been offering art classes for all ages and camps since 2006.</p>
                         <p>You can now book Fall classes for children and Fall classes for adults! Our schedule was updated so please refresh your screens!</p>
-                        <button data-target="" class="btn-group">Learn More</button>
+                        <button type="button" class="btn btn-secondary btn-md">
+                            <a role="button">Learn More</a>
+                        </button>
                     </div>
                     <div class="col-xs-12 col-md-6"></div>
                 </div>
@@ -79,19 +75,25 @@
                         <i></i>
                         <h4>Classes</h4>
                         <p>We have offered classes for children and for adults in the Fine Arts (drawing, painting, sculpture-making, clay work), Spanish Language Arts (different levels of Spanish language study), and Music Education for Piano, Guitar, Ukulele and Vocal lessons.</p>
-                        <button data-target="" class="btn-group">View Schedule</button>
+                        <button type="button" class="btn btn-secondary btn-md mx-auto d-block">
+                            <a role="button">View Schedule</a>
+                        </button>
                     </div>
                     <div class="col-md-4">
                         <i></i>
                         <h4>Camps</h4>
                         <p>We teach children and teens how to paint canvas paintings, make and grout mosaics, use wood and plaster for sculpture-making, create clay items with different types of clay, work with charcoal and learn special drawing techniques, etc.</p>
-                        <button data-target="" class="btn-group">View Schedule</button>
+                        <button type="button" class="btn btn-secondary btn-md mx-auto d-block">
+                            <a role="button">View Schedule</a>
+                        </button>
                     </div>
                     <div class="col-md-4">
                         <i></i>
                         <h4>Parties</h4>
                         <p>Whether you want us to teach a canvas painting, or make a painted 3-dimensional sculpture out of wood and plaster of Paris, some type of painting on a wood plaque, or clay jewelry-making that you create and paint, we will design a "one of a kind" art project or you can choose from the sample project display table.</p>
-                        <button data-target="" class="btn-group">View Schedule</button>
+                        <button type="button" class="btn btn-secondary btn-md mx-auto d-block">
+                            <a role="button">View Schedule</a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -106,7 +108,7 @@
 
                     </div>
                     <div class="col-md-6">
-                        <img src="" />
+                        <img src="">
                     </div>
                 </div>
             </div>
@@ -120,19 +122,19 @@
                                 <div class="carousel-item active">
                                     <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."</h4>
                                     <hr>
-                                    <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground" />
+                                    <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground">
                                     <h6>Joanna Doe, CEO of Client Company</h6>
                                 </div>
                                 <div class="carousel-item">
                                     <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."</h4>
                                     <hr>
-                                    <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground" />
+                                    <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground">
                                     <h6>John Doe, CTO of Client Company</h6>
                                 </div>
                                 <div class="carousel-item">
                                     <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id."</h4>
                                     <hr>
-                                    <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground" />
+                                    <img class="d-block w-100" src="img/react-lake.jpg" alt="React Lake Campground">
                                     <h6>Jack Doe, COO of Client Company</h6>
                                 </div>
                                 <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
@@ -151,26 +153,32 @@
         </section>
     </div>
 
-    <footer>
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sites</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-206-555-1234<br />
-            Email: campsites@nucamp.co
+    <footer class="navbar-header jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-3">
+                                      
+                </div>
+                <div class="col-xs-12 col-md-6 align-text-center">
+                    <ul class="footer-nav">
+                        <li><a href="#">Press Coverage</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Policies</a></li>
+                    </ul>
+                    <h6 class="text-center">Follow Us Today</h6>
+                    <ul class="social-nav">
+                        <li><a href="http://instagram.com/"><i class="fa fa-instagram fa-lg"></i> </a></li>
+                        <li><a href="http://facebook.com/"><i class="fa fa-facebook fa-lg"></i></a></li>
+                        <li><a href="mailto:campsites@nucamp.co"><i class="fa fa-envelope fa-lg"></i></a></li>
+                    </ul>                        
+                    <p class="text-center">1675 Cumberland Pkwy SE #102<br>
+                        Smyrna, GA 30080<br>
+                        678-213-4278<br>
+                        © 2022 Vinings School of Art.  All rights reserved.</p>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                </div>
+            </div>
         </div>
     </footer>
      <!-- build:js js/main.js -->
