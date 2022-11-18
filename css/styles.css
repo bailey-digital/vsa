@@ -1,3 +1,7 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
 .navbar-right {
     float: right;
 }
@@ -44,3 +48,7 @@ button.btn.btn-secondary.btn-md {
     border-radius: 21px;
 }
 
+/*testimonials*/
+hr.w-25 {
+    width: 50px !important;
+}
