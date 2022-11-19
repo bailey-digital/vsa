@@ -1,5 +1,31 @@
+img {width: 100%;}
+
+.logo img {
+    width: 200px;
+}
+
+h4, h5 {
+    text-align: center;
+}
+
+p:last-child {
+    margin-bottom: 50px;
+}
+
+i.fa {
+    text-align: center;
+    margin: 28px 0;
+    color: #2ECC71;
+}
+
+button a, button a:hover {color: white;}
+
+.navbar-header {
+    margin-bottom: 100px;
+}
+
 .navbar-dark .navbar-nav .nav-link {
-    color: black;
+    color: white;
 }
 
 .navbar-right {
@@ -43,22 +69,152 @@ ul.social-nav li a {
     padding: 0 14px;
 }
 
+/*modal*/
+.modal-header {
+    background: #2ECC71;
+    color: white;
+}
+
 /*section*/
-section {
-    padding: 28px 0;
-}
+section { padding: 28px 0; }
 
-#home section.hero {
-    background: #e8e8e8;
-}
+section:nth-child(2), section:last-child { background: rgb(46 204 91 / 3%); }
 
+section.hero h1, section.hero p {
+    color: white;
+    text-align: center;
+}
 
 button.btn.btn-secondary.btn-md {
     padding: 7px 35px;
+    border: 1px solid white;
     border-radius: 21px;
+    background: #2ECC71;
 }
+
+button.btn.btn-secondary.btn-sm {
+    background: white;
+    padding: 0 28px;
+    margin: 0 auto;
+    display: block;
+}
+
+button.btn.btn-primary {
+    background: #2ECC71;
+}
+
+i.fa.fa-arrow-down {
+    margin: 14px auto;
+    display: block;
+    border-radius: 4px;
+}
+
+/*Home*/
+#home section.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.viningsschoolofart.com/images/vsa-front.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6px;
+}
+
+#home section.hero h1, #home section.hero p {
+    color: white;
+    text-align: left;
+}
+
+/*parties*/
+#parties section.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/portrait-beautiful-longhaired-female-artist-work-her-canvas-studio.jpg) no-repeat scroll 0em 0em;
+    height: 31em;
+    background-size: cover;
+}
+
+/*register*/
+#register section.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/sign-sign-up-application-apply-enroll-enter-concept.jpg) no-repeat scroll 0em 0em;
+    height: 31em;
+    background-size: cover;
+}
+
+/*classes*/
+#classes section.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/elder-artist-helping-young-student-with-vase-model-drawing-creative-workshop-attending-art-class-develop-new-artistic-skills-creating-contemporary-artwork-personal-growth.jpg) no-repeat scroll 0em 0em;
+    height: 31em;
+    background-size: cover;
+}
+
+#classes h5 {
+    text-align: left;
+}
+
+/*contact*/
+#contact section.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/art-classes-two-little-girls.jpg) no-repeat scroll 0em 0em;
+    height: 31em;
+    background-size: cover;
+}
+
+/*camps*/
+#camps section.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/img/pupils-classroom-painting.jpg) no-repeat scroll 0em 0em;
+    height: 31em;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /*testimonials*/
 hr.w-25 {
     width: 50px !important;
+}
+
+
+/*tabs*/
+.nav-pills .nav-link.active {background-color: #2ECC71;border-radius: 0;}
+
+.nav-pills .nav-link {
+    border-left: 1px solid #e8e8e8;
+    border-radius: 0;
+}
+
+div#myTabContent {
+    padding: 32px 0;
+}
+
+.tab-pane h3 {
+    margin: 28px 0;
+}
+
+@media (min-width: 576px) {
+    .logo-small {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    ul.footer-nav li {
+        width: 100%;
+        display: block;
+        margin: 28px 0;
+    }
+
+    .navbar-right {
+        float: left;
+        position: fixed;
+        margin-top: 21px;
+        margin-left: 28px;
+    }
+
+    .navbar-collapse li.nav-item {
+        background: black;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .logo-large {
+        display: none;
+    }
 }
