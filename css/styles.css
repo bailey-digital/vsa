@@ -109,6 +109,10 @@ i.fa.fa-arrow-down {
     border-radius: 4px;
 }
 
+footer.navbar-header.jumbotron.jumbotron-fluid {
+    margin-bottom: 0;
+}
+
 /*Home*/
 #home section.hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.viningsschoolofart.com/images/vsa-front.jpg);
