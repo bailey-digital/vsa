@@ -43,6 +43,16 @@ ul.social-nav li a {
     padding: 0 14px;
 }
 
+/*section*/
+section {
+    padding: 28px 0;
+}
+
+#home section.hero {
+    background: #e8e8e8;
+}
+
+
 button.btn.btn-secondary.btn-md {
     padding: 7px 35px;
     border-radius: 21px;
